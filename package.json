@@ -1,12 +1,13 @@
 {
-  "name": "@artdeco/compiler.page",
+  "name": "compiler.page",
   "version": "0.0.0",
   "description": "The compiler.page website.",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
-    "start": "splendid-dev",
-    "dev": "splendid-dev -s",
+    "build": "splendid -e prod",
+    "prod": "splendid -s -e prod",
+    "dev": "splendid -s",
     "doc": "NODE_DEBUG=doc doc documentary -o README.md",
     "splendid": "splendid",
     "web": "splendid -s"
@@ -24,12 +25,13 @@
   "bugs": {
     "url": "https://github.com/artdecoweb/compiler.page/issues"
   },
-  "homepage": "https://github.com/artdecoweb/compiler.page#readme",
+  "homepage": "https://compiler.page",
   "devDependencies": {
-    "alamode": "^2.2.0",
-    "documentary": "^1.27.2",
-    "preact": "8.4.2",
-    "splendid": "^1.6.0",
-    "zoroaster": "^4.1.1-alpha"
+    "@externs/preact": "^1.2.6",
+    "alamode": "^3.0.0",
+    "documentary": "^1.33.0",
+    "preact": "8.5.2",
+    "splendid": "^1.9.3",
+    "zoroaster": "^4.1.2"
   }
 }
