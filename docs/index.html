@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <title>Main Page</title>
     <link href="styles/app.css" rel="stylesheet">
@@ -7,9 +7,16 @@
     <!-- <link href="styles/prism.css" rel="stylesheet"> -->
     <link href="img/favicon.ico" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
+    <script>document.documentElement.classList.remove("no-js")</script>
     <link href="css/npm-badge.css" rel="stylesheet">
     <link href="css/loaders/inner-circles.css" rel="stylesheet">
+    <style>
+      .no-js [data-loading] { display: none!important }
+    </style>
     <script defer src="js/ajax-loader.js"></script>
+    <script defer src="js/polyfill/intersection-observer.js"></script>
+    <script defer src="preact/dist/preact.min.js"></script>
+    <script defer src="comps/main.js"></script>
     <script>window.addEventListener('DOMContentLoaded', function(){window.AjaxLoader()})</script>
 
   </head>
@@ -24,7 +31,7 @@
           <a class="SimpleBadge" href="https://github.com/artdecocode/splendid">GitHub</a>
           <a title="Static Web Site Generator With JSX As HTML." class="NPMBadge"
             href="https://npmjs.com/package/splendid">
-            <span class="name"><em>Splendid</em></span><span class="version">1.9.3</span></a>
+            <span class="name"><em>Splendid</em></span><span class="version">1.9.5</span></a>
         </div>
 
         <h3 id="pages">Pages</h3>
@@ -39,6 +46,8 @@
           <li><a href="https://www.npmjs.com/package/splendid">splendid</a></li>
           <li><a href="https://www.npmjs.com/package/mnp">mnp</a></li>
         </ul>
+
+        <span id="c9848"><span data-loading>Loading sharing buttons...</span><noscript>Please enable JavaScript to Share</noscript></span>
       </div>
       <div class="right-column" id="Content">
         <h1 id="main-page">Main Page</h1>
