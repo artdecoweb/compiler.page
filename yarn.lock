@@ -143,10 +143,10 @@ diff@4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.1.tgz#0c667cb467ebbb5cea7f14f135cc2dba7780a8ff"
   integrity sha512-s2+XdvhPCOF01LRQBC8hf4vhbVmI2CGS5aZnxLJlT5FtdhPCDFq80q++zK2KlrVorVDdL5BOGZ/VfLrVtYNF+Q==
 
-documentary@^1.33.0:
-  version "1.33.0"
-  resolved "https://registry.yarnpkg.com/documentary/-/documentary-1.33.0.tgz#c13baaf6ea5f075c7a683e1547593dd634158a41"
-  integrity sha512-V6xOSIkBkHhQeUdLtGDUOa5LDXthjDNcmyrT5WIJmaXaYRbFnTwDE6hf9th5Bzq4Ia7CfuP/Jzln7s2ef+vrKA==
+documentary@^1.33.2:
+  version "1.33.2"
+  resolved "https://registry.yarnpkg.com/documentary/-/documentary-1.33.2.tgz#2b1f3271e345dde1da338fe163ed4cd5672ff6b3"
+  integrity sha512-yUS2zC7VYAk/Iv0/cDKMAL6zNtRW5DsuH62wzzIZkC+WcfQoyxL2QBqLP4mG5/2ec3kkN4XB5eAHx/D4e7ZVAQ==
   dependencies:
     alamode "^3.0.0"
     preact "8.5.2"

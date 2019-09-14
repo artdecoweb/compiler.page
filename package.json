@@ -29,7 +29,7 @@
   "devDependencies": {
     "@externs/preact": "^1.2.6",
     "alamode": "^3.0.0",
-    "documentary": "^1.33.0",
+    "documentary": "^1.33.2",
     "preact": "8.5.2",
     "splendid": "^1.9.5",
     "zoroaster": "^4.1.2"
