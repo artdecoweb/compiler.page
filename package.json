@@ -8,7 +8,7 @@
     "build": "splendid -e prod",
     "prod": "splendid -s -e prod",
     "dev": "splendid -s",
-    "doc": "NODE_DEBUG=doc doc documentary -o README.md",
+    "doc": "NODE_DEBUG=doc doc -o README.md",
     "splendid": "splendid",
     "web": "splendid -s"
   },
